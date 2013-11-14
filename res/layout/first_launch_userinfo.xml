@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res/org.vamosjuntos.juntos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_firstname" />
+
+        <EditText
+            android:id="@+id/launch_firstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/launch_firstname_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_lastname" />
+
+        <EditText
+            android:id="@+id/launch_lastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/launch_lastname_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_email_address" />
+
+        <org.vamosjuntos.widget.FormEditText
+            android:id="@+id/launch_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/launch_email_hint"
+            android:inputType="textEmailAddress"
+            whatever:testType="email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_phone_number" />
+
+        <org.vamosjuntos.widget.FormEditText
+            android:id="@+id/launch_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/launch_phone_hint"
+            android:inputType="phone"
+            whatever:testType="phone" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/launch_checkbox_notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_notification" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_askforinterval" />
+
+        <Spinner
+            android:id="@+id/launch_spinner_notification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/update_events_interval" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_askforlanguage" />
+
+        <Spinner
+            android:id="@+id/launch_spinner_language"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/preferred_language" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/launch_cancelbutton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel" >
+        </Button>
+
+        <Button
+            android:id="@+id/launch_okbutton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

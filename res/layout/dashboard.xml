@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.vamosjuntos.juntos.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@null" >
+
+    <!-- Know My Rights Button -->
+
+    <Button
+        android:id="@+id/btn_rights"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_myrights"
+        android:text="@string/know_my_rights"
+        android:textColor="@color/logo_green" />
+
+    <!-- Calendar Button -->
+
+    <Button
+        android:id="@+id/btn_calendar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_mycal"
+        android:text="@string/calendar"
+        android:textColor="@color/logo_red" />
+
+    <!-- Report Button -->
+
+    <Button
+        android:id="@+id/btn_report"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_report"
+        android:text="@string/doc_abuse"
+        android:textColor="@color/logo_blue" />
+
+    <!-- Donate Button -->
+
+    <Button
+        android:id="@+id/btn_donate"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_donate"
+        android:text="@string/donate"
+        android:textColor="@color/logo_orange" />
+
+</org.vamosjuntos.juntos.DashboardLayout>

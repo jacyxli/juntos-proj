@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <org.vamosjuntos.juntos.DashboardLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@null" >
+
+        <Button
+            android:id="@+id/btn_immigrant_rights"
+            style="@style/DashboardButton"
+            android:onClick="onImmigrantRightsClick"
+            android:text="@string/immigrant_rights" />
+
+        <!-- Youth Rights Button -->
+
+        <Button
+            android:id="@+id/btn_youth_rights"
+            style="@style/DashboardButton"
+            android:onClick="onYouthRightsClick"
+            android:text="@string/youth_rights" />
+
+        <!-- Parent Rights Button -->
+
+        <Button
+            android:id="@+id/btn_parent_rights"
+            style="@style/DashboardButton"
+            android:onClick="onParentRightsClick"
+            android:text="@string/parent_rights" />
+
+        <!-- More Info Button -->
+
+        <Button
+            android:id="@+id/btn_more_info"
+            style="@style/DashboardButton"
+            android:onClick="onMoreInfoClick"
+            android:text="@string/more_info" />
+    </org.vamosjuntos.juntos.DashboardLayout>
+
+    <fragment
+        android:id="@+id/buttonbar_fragment"
+        android:name="org.vamosjuntos.juntos.ButtonbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

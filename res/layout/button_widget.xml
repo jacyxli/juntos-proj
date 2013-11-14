@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_brown"    
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btn_to_events"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="@string/calendar"
+        android:scaleType="centerInside"
+        android:src="@drawable/explore" />
+
+    <ImageButton
+        android:id="@+id/btn_to_report_instance"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="@string/report_instance"
+        android:scaleType="centerInside"
+        android:src="@drawable/report_instance" />
+
+    <ImageButton
+        android:id="@+id/btn_to_report_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="@string/report_camera"
+        android:scaleType="centerInside"
+        android:src="@drawable/report_camera" />
+
+</LinearLayout>

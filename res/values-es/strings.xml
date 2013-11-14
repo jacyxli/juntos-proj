@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Juntos</string>
+    <string name="home">PAGINA PRINCIPAL</string>
+    <string name="explore">MENU PRINCIPAL</string>
+    <string name="about_us">SOBRE NOSOTROS</string>
+    <string name="know_my_rights">CUALES SON MIS DERECHOS</string>
+    <string name="calendar">CALENDARIO DE EVENTOS</string>
+    <string name="doc_abuse">QUERO REPORTAR UN ABUSO</string>
+    <string name="donate">QUIERO HACER UNA DONACIÓN</string>
+    <string name="immigrant_rights">Derechos del Inmigrante</string>
+    <string name="youth_rights">Derechos de Jovenes</string>
+    <string name="parent_rights">Derechos de Padres/Madres</string>
+    <string name="more_info">Mas Información</string>
+
+    <string name="loading">Cargando...</string>
+    <string name="racial_profiling">Perfil Racial</string>
+    <string name="worker_abuse">Abuso del Derechos del Trabajador</string>
+    <string name="student_abuse">Abuso de Derechos de Estudiantes</string>
+    <string name="donate_hint">$ 0.00</string>
+    <string name="donate_paypal">Donar con PayPal</string>
+    <string name="donate_card">Donar con Tarjeta</string>
+    <string name="mission">Nuestra Mision</string>
+    <string name="history">Historia de Juntos</string>
+    <string name="contact">Contactanos</string>
+    <string name="settings">Ajustes</string>
+    
+    <string name="info_unavailable">Perdona por la incoveniencia pero nuestra página esta bajo construcción en el momento</string>
+
+    <string name="submit">Reportar</string>
+    <string name="abuse_image">FOTO DEL ABUSO</string>
+    
+    <string name="url_donate">http://www.vamosjuntos.org/make-a-donation/</string>
+    <string name="url_community_resource">http://www.vamosjuntos.org/community-resources/</string>
+    <string name="xml_about_us">http://www.haverford.edu/computerscience/faculty/sorelle/cs395files/juntos_about_us.xml</string>
+                
+
+    <string name="error">Error</string>
+    <string name="error_format">[Error] %s</string>
+    <string name="refresh">Refrescar</string>
+    <string name="accounts">Cuentas</string>
+    
+    <string name="menu_preferences">Preferencias</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_add_to_local">Agregar a mi Calendario</string>
+    <string name="menu_send_email">Mandar Correo Electronico</string>
+    <string name="menu_up">ARRIBA</string>
+    <string name="menu_save">Guardar</string>
+   	<string name="menu_cancel">Cancelar</string>
+        
+    <string name="launch_firstname">Nombre</string>
+    <string name="launch_lastname">Apellido</string>
+    <string name="launch_email_address">Correo Electronico</string>
+    <string name="launch_phone_number">Numero de Telefono</string>
+    <string name="launch_firstname_hint">Como se llama usted?</string>
+    <string name="launch_lastname_hint">Cual es su apellido?</string>
+    <string name="launch_email_hint">Cual es su correo electronico?</string>
+    <string name="launch_phone_hint">Cual es su numero de telefono?</string>
+    <string name="launch_notification">Quiere recibir una notificación al reportar este abuso?</string>
+    <string name="launch_askforinterval">Que amenudo quiere recibir notificaciónes?</string>
+    <string name="launch_askforlanguage">Que idioma prefiere?</string>
+    
+    <string name="preference_reminder_summary">Permitir Recordatorio de Reporte</string>
+    <string name="preference_notification_summary">Permitir Notificaciónes de Eventos</string>
+    <string name="preference_notification">Notoficación de Eventos</string>
+    <string name="preference_reminder">Recordatorio de Reporte</string>
+    <string name="preference_account">AJUSTES DE CUENTA</string>
+    <string name="preference_profile">PERFIL</string>
+    <string name="preference_notification_frequency">Que tan amenudo recibe notificaciónes?</string>
+    <string name="preference_language">Idioma Preferido</string>
+    <string name="preference_support">AYUDA</string>
+    <string name="preference_feedback">Comentarios</string>
+    <string name="preference_feedback_summary">Por favor mandenos sus comentarios sobre esta aplicacion</string>
+    
+    <string name="display">AJUSTES VISUALES</string>
+    
+    <string name="report_instance">Reportar Instancia</string>
+    <string name="report_camera">Reportar por Foto</string>
+    <string name="report_audio">Reportar por Audio</string>
+    <string name="report_video">Reportar por Video</string>
+    <string name="report_text_title">Por favor describa la clase de abuso que quiere reportar en detalle.</string>
+    <string name="report_text_hint">Describa el abuso los mas detallado posible.</string>
+    <string name="report_username_hint">Su Nombre.</string>
+    <string name="report_text_ifAnonymous">Quiere reportar abuso anonimamente?</string>
+    <string name="report_text_informOthers">Quiere mandarse una copia del reporte as usted mismo?</string>
+    
+    <string name="error_only_numeric_digits_allowed">Solo dígitos numéricos.</string>
+    <string name="error_this_field_cannot_contain_special_character">Este espacio no puede tener simbolos</string>
+    <string name="error_only_standard_letters_are_allowed">Solo letras</string>
+    <string name="error_field_must_not_be_empty">Por favor llene este campo</string>
+    <string name="error_email_address_not_valid">Correo electronico no valido</string>
+    <string name="error_creditcard_number_not_valid">Tarjeta de credito no valida</string>
+    <string name="error_phone_not_valid">Numero de telefono no valido</string>
+    <string name="error_domain_not_valid">Correo no valido</string>
+    <string name="error_ip_not_valid">Direcion IP no valida</string>
+    <string name="error_url_not_valid">Direccion no valida</string>
+
+</resources>

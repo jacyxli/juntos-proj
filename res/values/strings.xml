@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Juntos</string>
+    <string name="home">HOME</string>
+    <string name="explore">EXPLORE</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="know_my_rights">My Rights</string>
+    <string name="calendar">Calendar</string>
+    <string name="doc_abuse">Report</string>
+    <string name="donate">Donate</string>
+    <string name="immigrant_rights">Immigrant Rights</string>
+    <string name="youth_rights">Youth Rights</string>
+    <string name="parent_rights">Parent Rights</string>
+    <string name="more_info">More Info</string>
+
+    <string name="loading">Loading...</string>
+    <string name="racial_profiling">Racial Profiling</string>
+    <string name="worker_abuse">Worker Abuse</string>
+    <string name="student_abuse">Student Rights Abuse</string>
+    <string name="donate_hint">$ 0.00</string>
+    <string name="donate_paypal">Donate With PayPal</string>
+    <string name="donate_card">Donate With Card</string>
+    <string name="mission">Mission</string>
+    <string name="history">History</string>
+    <string name="contact">Contact</string>
+            <string name="settings">Settings</string>
+    
+    <string name="info_unavailable">Sorry for the inconvenience but our website is under construction at the moment.</string>
+
+    <string name="submit">Submit</string>
+    <string name="abuse_image">ABUSE IMAGE</string>
+    
+    <string name="url_donate">http://www.vamosjuntos.org/make-a-donation/</string>
+    <string name="url_community_resource">http://www.vamosjuntos.org/community-resources/</string>
+    <string name="url_facebook">https://www.facebook.com/VamosJuntosPhilly</string>
+    <string name="url_twitter">https://twitter.com/Vamos_Juntos_</string>
+    <string name="url_gplus">https://plus.google.com/107897159705423928326/posts</string>
+    <string name="url_flickr">http://www.flickr.com/photos/vamosjuntos/</string>
+    <string name="url_youtube">http://www.youtube.com/vamosjuntosphilly</string>
+    <string name="url_rss">http://feeds.feedburner.com/vamosjuntos/ZFOZ</string>
+    
+    <string name="xml_about_us">http://www.haverford.edu/computerscience/faculty/sorelle/cs395files/juntos_about_us.xml</string>
+                
+
+    <string name="error">Error</string>
+    <string name="error_format">[Error] %s</string>
+    <string name="refresh">Refresh</string>
+    <string name="accounts">Accounts</string>
+    
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add_to_local">Add to My Calendar</string>
+    <string name="menu_send_email">Send a Email</string>
+    <string name="menu_up">UP</string>
+    <string name="menu_save">Save</string>
+   	<string name="menu_cancel">Cancel</string>
+        
+    <string name="launch_firstname">First Name</string>
+    <string name="launch_lastname">Last Name</string>
+    <string name="launch_email_address">Email</string>
+    <string name="launch_phone_number">Phone</string>
+    <string name="launch_firstname_hint">Enter your first name</string>
+    <string name="launch_lastname_hint">Enter your last name</string>
+    <string name="launch_email_hint">Enter your email address</string>
+    <string name="launch_phone_hint">Enter your phone number</string>
+    <string name="launch_notification">Would you like a notice when you report an instance of abuse?</string>
+    <string name="launch_askforinterval">How frequently would you like to be notified of new events?</string>
+    <string name="launch_askforlanguage">What language do you prefer?</string>
+    
+    <string name="preference_reminder_summary">Allow report reminders</string>
+    <string name="preference_notification_summary">Allow new event notifications</string>
+    <string name="preference_notification">Event Notification</string>
+    <string name="preference_reminder">Report Reminder</string>
+    <string name="preference_account">ACCOUNT PREFERENCES</string>
+    <string name="preference_profile">PROFILE</string>
+    <string name="preference_notification_frequency">Notification Frequency</string>
+    <string name="preference_language">Preferred Language</string>
+    <string name="preference_support">SUPPORT</string>
+    <string name="preference_feedback">Feedback</string>
+    <string name="preference_feedback_summary">Please send back your feedback</string>
+    <string name="display">DISPLAY</string>
+    
+    
+    <string name="report_instance">Report Instance</string>
+    <string name="report_camera">Report via Camera</string>
+    <string name="report_audio">Record via Audio</string>
+    <string name="report_video">Record via Video</string>
+    <string name="report_text_title">Please describe the abuse instance you are encountering now.</string>
+    <string name="report_text_hint">Describe the Instance Here.</string>
+    <string name="report_username_hint">Enter your name.</string>
+    <string name="report_text_ifAnonymous">Would you like to report anonymously?</string>
+    <string name="report_text_informOthers">Would you like to send a note to yourself?</string>
+    
+    <string name="error_only_numeric_digits_allowed">Only numeric digits are allowed.</string>
+    <string name="error_this_field_cannot_contain_special_character">This field cannot contain any special character</string>
+    <string name="error_only_standard_letters_are_allowed">Only standard letters are allowed</string>
+    <string name="error_field_must_not_be_empty">The field must not be empty</string>
+    <string name="error_email_address_not_valid">Email address not valid</string>
+    <string name="error_creditcard_number_not_valid">Credit card number is not valid</string>
+    <string name="error_phone_not_valid">Phone number not valid</string>
+    <string name="error_domain_not_valid">Domain name not valid</string>
+    <string name="error_ip_not_valid">IP Address not valid</string>
+    <string name="error_url_not_valid">Web Url is not valid</string>
+    
+    <string name="msg_no_internet">Cannot connect to Internet, please check your connection..</string>
+	<string name="like_facebook">Like Juntos on Facebook</string>
+	<string name="like_twitter">Follow Juntos on Twitter</string>
+	<string name="like_gplus">Follow Juntos on Google+</string>
+	<string name="like_youtube">Subscribe to Juntos on Youtube</string>
+	<string name="like_flickr">Follow Juntos on Flickr</string>
+	<string name="like_rss">Subscribe to Juntos RSS Feed</string>
+						
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="events_per_page_array">
+        <item>5 eventos</item>
+        <item>10 eventos</item>
+        <item>15 eventos</item>
+    </string-array>
+    <string-array name="report_text_typelist">
+        <item>Perfil Racial</item>
+        <item>Abuso del trabajador</item>
+        <item>Abuso de Estudiantes</item>
+    </string-array>
+    <string-array name="update_events_interval">
+        <item>Cada Minuto</item>
+        <item>Cada Hora</item>
+        <item>Diario</item>
+        <item>Semanal</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="update_events_interval_values">
+        <item>60</item>
+        <item>360</item>
+        <item>8640</item>
+        <item>60480</item>
+        <item>1000000000</item>
+    </string-array>
+    <string-array name="preferred_language">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="preferred_language_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

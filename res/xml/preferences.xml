@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_profile" >
+        <EditTextPreference
+            android:key="USER_LASTNAME"
+            android:summary="@string/launch_lastname_hint"
+            android:title="@string/launch_lastname" />
+        <EditTextPreference
+            android:key="USER_FIRSTNAME"
+            android:summary="@string/launch_firstname_hint"
+            android:title="@string/launch_firstname" />
+        <EditTextPreference
+            android:key="USER_EMAIL"
+            android:summary="@string/launch_email_hint"
+            android:title="@string/launch_email_address" />
+        <EditTextPreference
+            android:key="USER_PHONE"
+            android:summary="@string/launch_phone_hint"
+            android:title="@string/launch_phone_number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_account" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ABUSE_NOTIFICATION"
+            android:summary="@string/preference_reminder_summary"
+            android:title="@string/preference_reminder" />
+
+        <ListPreference
+            android:defaultValue="60"
+            android:entries="@array/update_events_interval"
+            android:entryValues="@array/update_events_interval_values"
+            android:key="EVENT_NOTIFICATION"
+            android:title="@string/preference_notification_frequency" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_support" >
+        <EditTextPreference
+            android:defaultValue=" "
+            android:key="FEEDBACK"
+            android:summary="@string/preference_feedback_summary"
+            android:title="@string/preference_feedback" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

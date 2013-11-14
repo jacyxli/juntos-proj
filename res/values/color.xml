@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_color">#323216</color>
+    <color name="dashboard_color">#F9FCF0</color>
+    <color name="button_color">#CCE680</color>
+    <color name="textcolor_dark">#ff29549f</color>
+    <color name="textcolor_light">#F9FCF0</color>
+    <color name="footbar_color">#537C00</color>
+    <color name="titlecolor">#EBEBE6</color>
+    <color name="click_button_color">#99CC66</color>
+    <color name="logo_orange">#ff9700</color>
+    <color name="logo_green">#8ac82b</color>
+    <color name="logo_red">#fe0032</color>
+    <color name="logo_blue">#02679b</color>
+
+</resources>

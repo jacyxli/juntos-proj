@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_us_like"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <org.vamosjuntos.juntos.DashboardLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bg_pic" >
+
+        <Button
+            android:id="@+id/btn_like_facebook"
+            style="@style/likeUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/facebook"
+            android:onClick="onFacebookClick"
+            android:text="@string/like_facebook" />
+
+        <Button
+            android:id="@+id/btn_like_twitter"
+            style="@style/likeUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/twitter"
+            android:onClick="onTwitterClick"
+            android:text="@string/like_twitter" />
+
+        <Button
+            android:id="@+id/btn_like_gplus"
+            style="@style/likeUsButton"
+            android:drawableLeft="@drawable/gplus"
+            android:onClick="onGplusClick"
+            android:text="@string/like_gplus" />
+
+        <Button
+            android:id="@+id/btn_like_youtube"
+            style="@style/likeUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/youtube"
+            android:onClick="onYoutubeClick"
+            android:text="@string/like_youtube" />
+
+        <Button
+            android:id="@+id/btn_like_flickr"
+            style="@style/likeUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/flickr"
+            android:onClick="onFlickrClick"
+            android:text="@string/like_flickr" />
+
+        <Button
+            android:id="@+id/btn_like_rss"
+            style="@style/likeUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/rss"
+            android:onClick="onRssClick"
+            android:text="@string/like_rss" />
+    </org.vamosjuntos.juntos.DashboardLayout>
+
+    <fragment
+        android:id="@+id/buttonbar_fragment"
+        android:name="org.vamosjuntos.juntos.ButtonbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

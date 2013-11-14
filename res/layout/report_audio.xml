@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/report_text"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dashboard_color"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/recordAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleRecordButton"
+            android:text="Start Recording" />
+
+        <Button
+            android:id="@+id/playAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handlePlayButton"
+            android:text="Start Playing" />
+
+        <Spinner
+            android:id="@+id/reportTypeSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/report_text_typelist" />
+
+        <CheckBox
+            android:id="@+id/reportIfAnonymous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_text_ifAnonymous" />
+
+        <CheckBox
+            android:id="@+id/reportIfInformOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_text_informOthers" />
+
+        <Button
+            android:id="@+id/reportSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/click_button_color"
+            android:drawableLeft="@drawable/ic_submit"
+            android:onClick="submitAudio"
+            android:text="@string/submit"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/buttonbar_fragment"
+        android:name="org.vamosjuntos.juntos.ButtonbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

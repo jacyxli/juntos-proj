@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="events_per_page_array">
+        <item>5 events</item>
+        <item>10 events</item>
+        <item>15 events</item>
+    </string-array>
+    <string-array name="report_text_typelist">
+        <item>Racial Profilling</item>
+        <item>Worker Abuse</item>
+        <item>Student Rights Abuse</item>
+    </string-array>
+    <string-array name="update_events_interval">
+        <item>Every Minute</item>
+        <item>Hourly</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="update_events_interval_values">
+        <item>60</item>
+        <item>360</item>
+        <item>8640</item>
+        <item>60480</item>
+        <item>1000000000</item>
+    </string-array>
+    <string-array name="preferred_language">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="preferred_language_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>Immigrant Rights</item>
+        <item>Youth Rights</item>
+        <item>Parent Rights</item>
+        <item>More Info</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.vamosjuntos.juntos.DashboardLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight = "1"
+    android:background="@color/dashboard_color">
+    
+    <!-- Know My Rights Button -->
+    <Button
+        android:id="@+id/btn_racial_profiling"
+        style="@style/DashboardButton"
+        android:text = "@string/racial_profiling" />
+    
+    <!-- Calendar Button -->
+    <Button 
+        android:id = "@+id/btn_worker_abuse"
+        style  = "@style/DashboardButton"
+        android:text = "@string/worker_abuse"/>
+    
+     <!--  Report Button -->
+    <Button
+        android:id="@+id/btn_student_abuse"
+        style="@style/DashboardButton"
+        android:text="@string/student_abuse" />    
+    
+</org.vamosjuntos.juntos.DashboardLayout>
